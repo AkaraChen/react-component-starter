@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "fmt": "pnpm prettier . -w",
-        "build": "rollup -c rollup.config.mjs"
+        "build": "rollup -c rollup.config.mjs",
+        "start": "pnpm -r --filter docs dev",
+        "watch": "pnpm build --watch"
     },
     "keywords": [],
     "author": "",
