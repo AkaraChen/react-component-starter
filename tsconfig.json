@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
         "jsx": "react-jsx",
-        "declaration": true
+        "declaration": true,
+        "target": "ES2022",
+        "moduleResolution": "nodenext"
     }
 }
